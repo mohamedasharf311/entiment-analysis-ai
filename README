@@ -1,0 +1,22 @@
+# Multilingual Sentiment Analysis using Transformers
+
+This project demonstrates a multilingual sentiment analysis pipeline using a pre-trained transformer model (`cardiffnlp/twitter-xlm-roberta-base-sentiment`) to classify user opinions into three categories: **Negative**, **Mixed**, and **Positive**.
+
+## 🔍 Overview
+
+- 💬 **Input**: Raw text data in multiple languages.
+- 🧠 **Model**: `twitter-xlm-roberta-base-sentiment` (Roberta-based multilingual model)
+- 🧪 **Task**: Sequence classification with 3 sentiment labels.
+- ⚙️ **Framework**: TensorFlow & HuggingFace Transformers.
+
+## 📊 Example Dataset
+
+```csv
+Text                                     | Label
+----------------------------------------|--------
+"I love the product!"                   | Positive
+"Not good at all."                      | Negative
+"Wow, great service... not!"           | Negative
+"Food was great, service was awful"    | Mixed
+"C'est fantastique!"                    | Positive
+"Terrible, terrible, terrible."        | Negative
