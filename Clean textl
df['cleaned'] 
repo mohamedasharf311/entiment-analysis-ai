@@ -1,0 +1,1 @@
+df['cleaned'] = df['text'].apply(lambda x: re.sub(r'\s+', ' ', x).strip())
